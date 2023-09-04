@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.header{
+    border: 10px solid transparent;
+    padding: 10px;
+    /*border-image: url("../images/border.png") 30 stretch;*/
+    /*border-image: url(../images/border.png) 20% round;*/
+    border-image:url(../images/border.png) 30% round;
+    text-align: center;
+    background-image: linear-gradient(to bottom right,rgb(167, 167, 224),rgb(247, 139, 139));
+  }
+  .header h1{
+    color:brown;
+    text-shadow: 1px 1px 2px rgb(99, 99, 94);
+    font-family: 'Sedgwick Ave Display', cursive;
+    letter-spacing: 10px;
+  }
+  .nav{
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right,rgb(239, 227, 236),rgb(229, 116, 82));
+  
+  }
+  .nav a{
+    float: left;
+    display: block;
+    color:rgb(250, 243, 243);
+    text-align: center;
+    text-decoration: none;
+    padding:14px 16px;
+    text-shadow: 1px 1px 2px orange;
+  }
+  .nav a:hover{
+    background-image: linear-gradient(to bottom right,rgb(232, 50, 187),rgb(143, 132, 129));
+    color:white;
+    border:1px solid orange;
+    border-radius: 5px;
+  }
+  .left-column{
+    float:left;
+    width: 20%;
+    padding:15px;
+    background-color: aliceblue;
+  }
+  .mid-column{
+    float: left;
+    width: 60%;
+    padding:15px;
+    /*background-color: antiquewhite;*/
+  }
+  .right-column{
+    float: left;
+    width: 20%;
+    padding:5px;
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer{
+    text-align: center;
+    background-color: rgb(239, 205, 162);
+    padding:20px;
+  }
+  /* Profile */
+  .profile-img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(250, 205, 205);
+  }
+  .post{
+    background-color: white;
+    box-shadow: 1px 1px 2px rgb(231, 203, 203);
+    padding:10px;
+  }
