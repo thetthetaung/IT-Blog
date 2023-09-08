@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin:0;
   padding:0;
+  list-style-type: none;
 }
 .header{
     border: 10px solid transparent;
@@ -53,7 +54,7 @@
   .right-column{
     float: left;
     width: 20%;
-    padding:5px;
+    padding:15px;
   }
   .row::after {
     content: "";
@@ -74,5 +75,84 @@
   .post{
     background-color: white;
     box-shadow: 1px 1px 2px rgb(231, 203, 203);
+    border:1px solid rgb(242, 236, 236);
     padding:10px;
+    margin-bottom: 10px;
+  }
+  .left-column h4{
+    text-align: center;
+    margin:5px;
+  }
+  .left-column p{
+    padding:5px;
+    line-height: 20px;
+  }
+  /* For Category Menu */
+  .cat-menu a{
+    text-decoration: none;
+    color:blueviolet;
+    font-size:16px;
+    padding:5px 10px;
+  }
+  .cat-menu li:hover{
+    border: 1px solid rgb(131, 81, 81);
+    box-shadow: 1px 1px 2px rgb(167, 165, 165);
+  }
+  .cat-menu li{
+    padding:5px;
+    margin:10px;
+    text-align: center;    
+    /*background-color: rgb(194, 237, 237);*/
+    background-image: linear-gradient(rgb(243, 231, 231),rgb(226, 249, 226));
+  }
+
+  .profile-image{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .profile-image:hover{
+    box-shadow: 1px 1px 2px gray;
+  }
+  /* This is for footer*/
+  .footer-left{
+    float: left;
+    width: 25%;
+    padding:15px;
+  }
+  .footer-right{
+    float: left;
+    width: 50%;
+    padding:15px;
+  }
+  .footer-right h4{
+    margin:20px;
+  }
+  .btn-join{
+    text-decoration: none;
+    margin:10px;
+    padding:15px 20px;
+    border: 1px solid rgb(245, 234, 149);
+    color:black;
+  }
+  .btn-join:hover{
+    border:1px solid rgb(189, 229, 146);
+    color:blueviolet;
+    background-color: beige;
+  }
+  .follow-us{
+    font-size:20px;
+    margin:5px 15px 5px 5px;
+  }
+  .fa-facebook-f:hover{
+    color:white;
+  }
+  .fa-instagram:hover{
+    color:white;
+  }
+  .fa-viber:hover{
+    color:white;
+  }
+  .fa-telegram:hover{
+    color:white;
   }
